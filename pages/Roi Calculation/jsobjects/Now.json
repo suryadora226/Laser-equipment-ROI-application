@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Now",
+    "pageId": "Roi Calculation",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n  storeInput: async () => {\n\t\tawait storeValue('value',(parseFloat(Input1.text)*parseFloat(Input2.text)) + parseFloat(Input3.text)/parseFloat(Input4.text) * (100));\n\t},\n\tgetInput: () => {\n\t\treturn appsmith.store.value\n\t},\n}",
+    "variables": []
+  },
+  "id": "Roi Calculation_Now",
+  "deleted": false,
+  "gitSyncId": "62b96f0e20ae3225cef28042_62c410eb78f4ff24c7304980"
+}
