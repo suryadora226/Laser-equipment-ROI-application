@@ -11,6 +11,10 @@
     {
       "id": "Roi Calculation",
       "isDefault": false
+    },
+    {
+      "id": "ROI Clac",
+      "isDefault": false
     }
   ],
   "viewMode": false,

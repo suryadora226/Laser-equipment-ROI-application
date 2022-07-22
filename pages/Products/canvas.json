@@ -82,7 +82,11 @@
                       "isCompact": false,
                       "boxShadow": "none",
                       "widgetName": "MenuButton1",
-                      "dynamicPropertyPathList": [],
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "menuItems.menuItem2.onClick"
+                        }
+                      ],
                       "displayName": "Menu Button",
                       "iconSVG": "/static/media/icon.0341d17d.svg",
                       "topRow": 1,
@@ -123,7 +127,7 @@
                           "isVisible": true,
                           "isDisabled": false,
                           "index": 0,
-                          "onClick": "{{storeValue('city','per visit:500/-')}}"
+                          "onClick": "{{storeValue('value','per visit 300/-')}}"
                         },
                         "menuItem2": {
                           "label": "SMALL TOWN",
@@ -132,7 +136,7 @@
                           "isVisible": true,
                           "isDisabled": false,
                           "index": 1,
-                          "onClick": "{{storeValue('city','per visit:300/-')}}"
+                          "onClick": "{{storeValue('value','per visit 500/-')}}"
                         }
                       },
                       "isVisible": true,
@@ -196,7 +200,7 @@
                           "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
                         },
                         "groupButton2": {
-                          "label": "Setup",
+                          "label": "ROI",
                           "id": "groupButton2",
                           "buttonType": "MENU",
                           "placement": "CENTER",
@@ -208,16 +212,16 @@
                             "menuItemezxpppf9ef": {
                               "id": "menuItemezxpppf9ef",
                               "index": 0,
-                              "label": "Quick Start",
+                              "label": "Quick Clac",
                               "widgetId": "u4s0nvgksr",
                               "isDisabled": false,
                               "isVisible": true,
-                              "onClick": "{{navigateTo('Roi Calculation', {})}}"
+                              "onClick": "{{navigateTo('ROI Clac', {})}}"
                             },
                             "menuItemxt7e2ktrab": {
                               "id": "menuItemxt7e2ktrab",
                               "index": 1,
-                              "label": "Manual Way",
+                              "label": "Detailed Calc",
                               "widgetId": "3iqqrkk2mw",
                               "isDisabled": false,
                               "isVisible": true
@@ -329,7 +333,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "#FFC13D",
-                      "text": "{{appsmith.store.city}}",
+                      "text": "{{appsmith.store.value}}",
                       "key": "s2o37saqzv",
                       "isDeprecated": false,
                       "rightColumn": 18,

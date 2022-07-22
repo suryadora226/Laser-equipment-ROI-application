@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Calc",
+    "pageId": "ROI Clac",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tstoreInput:async () => {\n\t\tawait storeValue('calc',parseInt(Input1.text)*parseInt(Input2.text))\n\t},\n\tgetInput: ()=>{\n\t\treturn appsmith.store.calc\n\t},\n}",
+    "variables": []
+  },
+  "id": "ROI Clac_Calc",
+  "deleted": false,
+  "gitSyncId": "62b96f0e20ae3225cef28042_62da31e2a7d0d33f843d884b"
+}

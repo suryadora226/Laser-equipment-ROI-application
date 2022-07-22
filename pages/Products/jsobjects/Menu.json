@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Menu",
+    "pageId": "Products",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tstoreInput: async () => {\n\tawait storeValue('value',)\n},\n\tgetInput: () => {\n\t\treturn appsmith.store.value\n\t},\n}",
+    "variables": []
+  },
+  "id": "Products_Menu",
+  "deleted": false,
+  "gitSyncId": "62b96f0e20ae3225cef28042_62c551908d0a3236bf3a2152"
+}
